@@ -66,11 +66,11 @@
                                             <span class="icon"
                                                 style="background-image:url('assets/img/24-hours.png'); width:40px;"></span>
                                             <!-- <?php echo config('phone_number'); ?> -->
-                                        &nbsp;  &nbsp;    <a href="tel:(888) 453-6169"> (888) 453-6169</a>
+                                       <a href="tel:(888) 453-6169"> (888) 453-6169</a>
 
-                                        </a>
+                                        </a>  &nbsp; &nbsp; 
                                     </li>
-                                    <li style="color:black;" id="nav_toggle" class="icononly" onclick="toggle_nav()">
+                                    <li style="color:black;   margin-right:20px;" id="nav_toggle" class="icononly" onclick="toggle_nav()">
                                         <span class="ico" style="background-image:url('assets/img/menu1.png');
                                          
                                              width: 20px;

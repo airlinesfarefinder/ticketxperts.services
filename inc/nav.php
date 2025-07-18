@@ -1,3 +1,6 @@
+
+
+
 <div id="nav">
     <div class="container-fluid">
         <div class="row">
@@ -63,20 +66,20 @@
                                     <li class="withicon">
                                         <a href="tel:<?php echo config('phone_number'); ?>">
                                             <span class="icon"
-                                                style="background-image:url('assets/img/24-hours.png'); width:40px;"></span>&nbsp;&nbsp; 
-                                            <?php echo config('phone_number'); ?>
+                                                style="background-image:url('assets/img/24-hours.png'); width:40px;"></span>
+                                           &nbsp; &nbsp;   <?php echo config('phone_number'); ?>
                                         </a>
                                     </li>
-                                    <li style="color:black;" id="nav_toggle" class="icononly" onclick="toggle_nav()">
-                                        <span class="ico" style="background-image:url('assets/img/menu1.png');
+                                    <li style="color:black;    margin-right:20px;" id="nav_toggle" class="icononly" onclick="toggle_nav()">
+                                        <span class="icon" style="background-image:url('assets/img/menu1.png');
                                          
                                              width: 20px;
     display: block;
-    height: 20px;
+    height: 60px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-                                         
+            
                                          
                                          ">
 
