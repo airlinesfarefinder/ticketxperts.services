@@ -84,7 +84,7 @@
 
         /* Your existing styles */
         .testimonial-section {
-            background-color: #9946e8;
+            background-color: #014171;
             color: #000;
             padding: 3rem 1rem;
             text-align: center;
@@ -123,7 +123,7 @@
         .testimonial-author {
             margin-top: 1.4rem;
             font-weight: bold;
-            color: blue;
+            color: #edb82c;
         }
 
         .testimonial-date {

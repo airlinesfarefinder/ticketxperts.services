@@ -71,7 +71,7 @@
                                         </a>
                                     </li>
                                     <li style="color:black;" id="nav_toggle" class="icononly" onclick="toggle_nav()">
-                                        <span class="ico" style="background-image:url('assets/img/menu.png');
+                                        <span class="ico" style="background-image:url('assets/img/menu1.png');
                                          
                                              width: 20px;
     display: block;

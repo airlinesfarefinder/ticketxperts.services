@@ -1,17 +1,26 @@
+<style>
+  @media (max-width: 767px) {
+  .bg{
+    height:250px !important;
+  }
+
+  }
+</style>
+
 <div id="about">
     <div class="container">
         <div class="row">
-            <div class="col-sm-5">
-                <div class="bg" style="background-image:url('images/cruise/top-view-subway-driver-arriving-station-time-with-his-high-speed-train.jpg')"></div>
+            <div class="col-sm-5 ">
+                <div class="bg " style="background-image:url('images/caribbean.jpg')"></div>
             </div>
             <div class="col-sm-7">
-                <div class="gutter">
-                    <div class="heading">
+                <div class="gut">
+                    <div class="headin">
                         <h3>Everything You Need for Your Travels — Simplified</h3>
                     </div>
                     <div class="intro first">
                         <p>
-                          Reserve your flights effortlessly with TravelExpresSmart.
+                          Reserve your flights effortlessly with Ticketxperts.services.
                             Experience seamless booking with trusted partners, ensuring your journey starts right.
                         </p>
                     </div>

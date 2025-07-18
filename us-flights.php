@@ -27,6 +27,7 @@ include 'inc/head.php';
 
   
     include 'inc/footer.php';
+    include 'inc/flight/bottom.php';
   include 'inc/scripts.php';
     ?>
 

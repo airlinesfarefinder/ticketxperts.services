@@ -89,7 +89,7 @@
 
         backdrop-filter: blur(8px);
 
-        margin-top: 44rem;
+        margin-top: 5rem;
         border-radius: 20px;
     }
 
@@ -214,48 +214,58 @@
     }
 
 
-    
-  #banner .overlayflight {
+
+
+
+  #banner .overlaytext {
      position: relative;
     display: inline-block;
     width: auto;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 0px;
-    /* background: linear-gradient(to right,#94bbfc 55%, transparent); */
-    padding: 15px 10px;
-    left: 30%;
+    background: linear-gradient(to right, #6a95b8 55%, transparent);
+    padding: 25px;
+    left: 0%;
     border-radius: 15px 0px;
 }
-.overlayflight h6{
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: bolder;
-}
-.overlayflight h3{
-    color: #181818;
+
+.overlaytext h3{
+      color: #ffffff;
     font-size: 35px;
     font-weight: bolder;
-    margin-bottom: 20px;
+}
+
+.overlaytext h6{
+      color: #ffffff;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.overlaytext a{
+      /* color: #f50a0aff; */
+        color: #ffffff;
+    font-size: 35px;
+    font-weight: bolder;
 }
 
 
-/* #banner .overlayflight::after {
+#banner .overlaytext::after {
   content: "";
   position: absolute;
   top: 0;
   left: 35%;
   width: 100px;
   height: 6px;
-  background: #ffea54;
+  /* background: #e6e5deff; */
   z-index: 1;
-} */
+}
 
 
   @media (max-width: 767px) {
     #banner .search .input_wrapper .input {}
 
 
-      #banner .overlayflight {
+      #banner .overlaytext {
      position: relative;
     display: inline-block;
     width: auto;
@@ -272,8 +282,25 @@
   }
 
 
+    @media (max-width: 767px) {
+        #banner .search .input_wrapper .input {}
 
 
+        #banner .overlayflight {
+            position: relative;
+            display: inline-block;
+            width: auto;
+            margin-top: 130px;
+            margin-bottom: 0px;
+            background: linear-gradient(to right, #e9c498 55%, transparent);
+            padding: 25px 25px;
+            left: 0%;
+            border-radius: 15px;
+
+            text-align: center;
+        }
+
+    }
 </style>
 
 
@@ -283,16 +310,23 @@
 
 
 
-<div class="overlayflight">
-  <h6>Secure Your Dream Flight Now</h6>
+    <div class="overlaytext">
+
+        <h3>
+            Take Off to Exotic Destinations <br />
+
+            <a href="tel:(888) 343-9911"> Call us (888) 343-9911</a>
+        </h3>
+
+    </div>
+
+    <!-- <div class="overlaytext">
+  <h6>Book your Cruise Experience</h6>
   <h3>
-    Take Off to Exotic Destinations <br />
-
-    <a href="tel:(888) 343-9911"> Call us   (888) 343-9911</a>
+    Set Sail on Your Dream Vacation <br />
+    <a href="tel:(888) 453-6169">Call Us (888) 453-6169</a>
   </h3>
-  <p>Don't miss out on exclusive offers!</p>
-</div>
-
+</div> -->
 
 
     <div class="container">
