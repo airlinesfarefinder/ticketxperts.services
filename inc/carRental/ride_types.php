@@ -2,8 +2,9 @@
   <div class="container">
     <div class="row">
       <div class="heading">
-        <h3>Available Rides To Hire</h3>
-        <p>Lorem ipsum dolor sit amet consectetur</p>
+       <h3>Available Rides To Hire</h3>
+<p>Choose from a variety of reliable ride options</p>
+
       </div>
     </div>
     <div class="row">

@@ -1,10 +1,38 @@
-<div id="small_banner" class="center">
+
+<style>
+    #small_banner1 {
+
+margin-top:70px;
+        width: 100%;
+        background: #6ea6edeb;
+        text-align: center;
+        margin-inline: auto;
+        /* height:250px; */
+
+    }
+
+    .head1 {
+        
+        position: relative;
+        display:block;
+        width:100%;
+        /* margin-top: 90px; */
+        padding: 20px;
+        text-align: center;
+        margin-inline: auto;
+        /* height: 200px; */
+    }
+</style>
+
+
+
+<div id="small_banner1" class="center">
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
-                <div class="head">
+                <div class="head1">
                     <h3>Cookie Policy</h3>
-                    <p>This Cookie Policy (“Policy”) explains how Amex Travel Reservations (“we,” “us,” or “our”) uses cookies and similar technologies (“Cookies”) when you visit amextravelreservations.com (“Site”)</p>
+                    <p>This Cookie Policy (“Policy”) explains how Ticket Xperts (“we,” “us,” or “our”) uses cookies and similar technologies (“Cookies”) when you visit ticketxperts.services (“Site”)</p>
                     <p>For details on how we handle your personal data, please refer to our Privacy Policy.</p>
                 </div>
             </div>
@@ -18,7 +46,7 @@
 
                 <div class="section">
                     <h2><span class="section-number">Section 1</span> — What Are Cookies</h2>
-                    <p>Amex Travel Reservations places Cookies on your device. Cookies are small text files stored on your computer or mobile device when you visit our Site. We use Cookies for various purposes, including:</p>
+                    <p>Ticket Xperts places Cookies on your device. Cookies are small text files stored on your computer or mobile device when you visit our Site. We use Cookies for various purposes, including:</p>
                     <ul>
                         <li>Remembering you and accessing your account information (stored securely) to provide a personalized experience.</li>
                         <li>Estimating our Site’s audience size and usage, including tracking repeat visits.</li>
@@ -31,7 +59,7 @@
 
                 <div class="section">
                     <h2><span class="section-number">Section 2</span> — Types of Cookies</h2>
-                    <p>Amex Travel Reservations uses the following cookie categories on our Site:</p>
+                    <p>Ticket Xperts uses the following cookie categories on our Site:</p>
 
                     <h3>Strictly Necessary Cookies</h3>
                     <p>These are essential for Site functionality, allowing you to navigate and use core features.</p>
@@ -48,7 +76,7 @@
                     <p>See Section 4 for details on specific Cookies we use and their purposes.</p>
 
                     <h3>First-Party vs. Third-Party Cookies</h3>
-                    <p>First-party Cookies are set by Amex Travel Reservations and share our domain. Third-party Cookies are set by external providers or partners.</p>
+                    <p>First-party Cookies are set by Ticket Xperts and share our domain. Third-party Cookies are set by external providers or partners.</p>
 
                     <h3>Session vs. Persistent Cookies</h3>
                     <p>We use session Cookies (which expire when you close your browser) and persistent Cookies (which remain on your device until you delete them or they expire).</p>
@@ -141,7 +169,7 @@
                     <p>If you have questions about this Cookie Policy or how we use Cookies, please visit our Contact Us page or reach out directly:</p>
                     <p>Phone: <strong><?php echo config('phone_number') ?></strong><br>
                         Address: <strong><?php echo config('address') ?></strong><br>
-                        Email: <strong>privacy@amextravelreservations.com</strong></p>
+                        Email: <strong>privacy@ticketxperts.services</strong></p>
                 </div>
 
                 <div class="section">

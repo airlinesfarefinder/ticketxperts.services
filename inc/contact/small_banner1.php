@@ -29,8 +29,9 @@ margin-top:70px;
         <div class="row">
             <div class="col-sm-12">
                 <div class="head1">
-                    <h3>Contact Us</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                  <h3>Contact Us</h3>
+<p>We're here to help—reach out with any questions or concerns</p>
+
                 </div>
             </div>
         </div>

@@ -1,10 +1,38 @@
-<div id="small_banner" class="center">
+
+<style>
+    #small_banner1 {
+
+margin-top:70px;
+        width: 100%;
+        background: #6ea6edeb;
+        text-align: center;
+        margin-inline: auto;
+        /* height:250px; */
+
+    }
+
+    .head1 {
+        
+        position: relative;
+        display:block;
+        width:100%;
+        /* margin-top: 90px; */
+        padding: 20px;
+        text-align: center;
+        margin-inline: auto;
+        /* height: 200px; */
+    }
+</style>
+
+
+
+<div id="small_banner1" class="center">
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
-                <div class="head">
+                <div class="head1">
                     <h3>Baggage Guidelines & Travel Services</h3>
-                    <p>Discover how Amex Travel Reservations helps you bring the items you need while ensuring a smooth, enjoyable journey. Review our policies to pack smart and travel stress-free.</p>
+                    <p>Discover how Ticket Xperts helps you bring the items you need while ensuring a smooth, enjoyable journey. Review our policies to pack smart and travel stress-free.</p>
                 </div>
             </div>
         </div>
@@ -15,7 +43,7 @@
         <div class="policy_content">
             <div class="col-md-10 col-md-offset-1">
                 <div class="intro-text">
-                    <p>For trips involving Thruway Services within the 7000 and 8000 series, baggage policies are determined by our partner carriers and may differ from Amex Travel Reservations’ standard guidelines.</p>
+                    <p>For trips involving Thruway Services within the 7000 and 8000 series, baggage policies are determined by our partner carriers and may differ from Ticket Xperts’ standard guidelines.</p>
                 </div>
 
                 <div class="section">
@@ -116,9 +144,9 @@
 
                 <div class="section">
                     <h2>Contact Us</h2>
-                    <p>If you have questions about our baggage policy or require travel support, please visit the <a href="/contact">Contact Us</a> page on <a href="<?php echo config('domain_name') ?>">amextravelreservations.com</a>.</p>
+                    <p>If you have questions about our baggage policy or require travel support, please visit the <a href="/contact">Contact Us</a> page on <a href="<?php echo config('domain_name') ?>">ticketxperts.services</a>.</p>
 
-                    <p><strong>Amex Travel Reservations<br>
+                    <p><strong>Ticket Xperts<br>
                             <?php echo config('address') ?></p>
                 </div>
 
